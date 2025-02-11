@@ -30,6 +30,9 @@ REACT_APP_WEATHER_API_KEY=your_api_key_here
 5️⃣ Start the development server:
 npm start
 
+## Live Demo
+https://my-w-app.netlify.app/
+
 ## 📸 Screenshot
 ![Image](https://github.com/user-attachments/assets/441d5428-9f20-481e-8553-7d66be046e1b)
 
