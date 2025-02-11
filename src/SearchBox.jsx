@@ -58,6 +58,8 @@ function SearchBox({ updateWeatherInfo }) {
       <p>Search City</p>
       <form onSubmit={handleSubmit}>
         <TextField
+        className="input-field"
+           style={{width: "250px", backgroundColor: "#fff"}}
           id="outlined-basic"
           label="City Name"
           variant="outlined"

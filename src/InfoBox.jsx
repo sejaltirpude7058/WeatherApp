@@ -15,35 +15,46 @@ function InfoBox({info}) {
    "https://images.pexels.com/photos/763398/pexels-photo-763398.jpeg?auto=compress&cs=tinysrgb&w=600";
   return (
     <div className="InfoBox">
-      
       <div className="card">
-        <Card sx={{ maxWidth: 345 }}>
+        <Card sx={{ width: "350px" }}>
           <CardActionArea>
             <CardMedia
               component="img"
-              height="150"
-              image={(info.humidity > 80) ? rainUrl : (info.temperature < 15) ? coldUrl : summerUrl }
+              height="180"
+              image={
+                info.humidity > 80
+                  ? rainUrl
+                  : info.temperature < 15
+                  ? coldUrl
+                  : summerUrl
+              }
               alt="weather Image"
             />
             <CardContent>
               <Typography gutterBottom variant="h5" component="div">
-                {info.city} 
-                
+                {info.city}
               </Typography>
               <Typography
                 variant="body2"
                 sx={{ color: "text.secondary" }}
                 component={"span"}
               >
-                <p>Temperature = {info.temperature}&deg;C</p>
-                <p>Minimum Temperature = {info.tempMin}&deg;C</p>
-                <p>Maximum Temperature = {info.tempMax}&deg;C</p>
-                <p>Humidity = {info.humidity}</p>
                 <p>
-                  Feels Like it is {info.feelsLike}&deg;C and weather is{" "} 
+                  <b>Temperature</b> : {info.temperature}&deg;C
+                </p>
+                <p>
+                  <b>Minimum Temperature</b> : {info.tempMin}&deg;C
+                </p>
+                <p>
+                  <b>Maximum Temperature</b> : {info.tempMax}&deg;C
+                </p>
+                <p>
+                  <b>Humidity</b> = {info.humidity}
+                </p>
+                <p>
+                  Feels Like it is {info.feelsLike}&deg;C and weather is{" "}
                   {info.weather}
                 </p>
-               
               </Typography>
             </CardContent>
           </CardActionArea>
