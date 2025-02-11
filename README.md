@@ -31,6 +31,6 @@ REACT_APP_WEATHER_API_KEY=your_api_key_here
 npm start
 
 ## 📸 Screenshot
-![Weather App Screenshot]((https://github.com/user-attachments/assets/441d5428-9f20-481e-8553-7d66be046e1b))
+![Image](https://github.com/user-attachments/assets/441d5428-9f20-481e-8553-7d66be046e1b)
 
 
