@@ -9,9 +9,9 @@ A simple and responsive Weather App built with React and powered by the OpenWeat
 ⚡ Fast and smooth performance with React
 🛠️ Technologies Used
 
-**React** – For building the UI
-**OpenWeather API** – For fetching live weather data
-**CSS** – For styling
+**React** – For building the UI          
+**OpenWeather API** – For fetching live weather data        
+**CSS** – For styling         
 
 ## 📦 Installation
 1️⃣ Clone the repository:
