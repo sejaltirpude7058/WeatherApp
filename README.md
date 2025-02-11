@@ -16,14 +16,15 @@ A simple and responsive Weather App built with React and powered by the OpenWeat
 ## 📦 Installation
 1️⃣ Clone the repository:
 git clone https://github.com/sejaltirpude7058/weather-app.git
+
 cd weather-app
 
 2️⃣ Install dependencies:
 npm install
 
-3️⃣ Get an API key from OpenWeather
-
+3️⃣ Get an API key from OpenWeather 
 4️⃣ Create a .env file in the root directory and add:
+
 REACT_APP_WEATHER_API_KEY=your_api_key_here
 
 5️⃣ Start the development server:
